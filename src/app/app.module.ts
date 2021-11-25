@@ -10,6 +10,8 @@ import { CrudMesaComponent } from './components/crud-mesa/crud-mesa.component';
 import { CrudPlatilloComponent } from './components/crud-platillo/crud-platillo.component';
 import { CrudSocioComponent } from './components/crud-socio/crud-socio.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { CrudUsuarioComponent } from './components/crud-usuario/crud-usuario.component';
+import { TransactBoletaComponent } from './components/transact-boleta/transact-boleta.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { MenuComponent } from './components/menu/menu.component';
     CrudMesaComponent,
     CrudPlatilloComponent,
     CrudSocioComponent,
-    MenuComponent
+    MenuComponent,
+    CrudUsuarioComponent,
+    TransactBoletaComponent
 
 
   ],
