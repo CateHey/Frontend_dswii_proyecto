@@ -1,0 +1,25 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { RouterModule, Routes } from '@angular/router';
+import { CrudMesaComponent } from './components/crud-mesa/crud-mesa.component';
+import { CrudPlatilloComponent } from './components/crud-platillo/crud-platillo.component';
+import { CrudSocioComponent } from './components/crud-socio/crud-socio.component';
+import { MenuComponent } from './components/menu/menu.component';
+
+
+
+const routes: Routes = [
+
+  {path:"crudMesa", component:CrudMesaComponent },
+  {path:"crudSocio", component:CrudSocioComponent },
+  {path:"crudPlatillo", component:CrudPlatilloComponent },
+  {path:"menu", component:MenuComponent },
+];
+
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+
+export class AppRoutingModule { }
