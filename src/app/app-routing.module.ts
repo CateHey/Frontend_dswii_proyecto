@@ -5,6 +5,8 @@ import { CrudMesaComponent } from './components/crud-mesa/crud-mesa.component';
 import { CrudPlatilloComponent } from './components/crud-platillo/crud-platillo.component';
 import { CrudSocioComponent } from './components/crud-socio/crud-socio.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { TransactBoletaComponent } from './components/transact-boleta/transact-boleta.component';
+import { CrudUsuarioComponent } from './components/crud-usuario/crud-usuario.component';
 
 
 
@@ -13,6 +15,8 @@ const routes: Routes = [
   {path:"crudMesa", component:CrudMesaComponent },
   {path:"crudSocio", component:CrudSocioComponent },
   {path:"crudPlatillo", component:CrudPlatilloComponent },
+  {path:"boleta", component:TransactBoletaComponent },
+  {path:"crudUsuario", component:CrudUsuarioComponent },
   {path:"menu", component:MenuComponent },
 ];
 
