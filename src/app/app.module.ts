@@ -12,6 +12,8 @@ import { CrudSocioComponent } from './components/crud-socio/crud-socio.component
 import { MenuComponent } from './components/menu/menu.component';
 import { CrudUsuarioComponent } from './components/crud-usuario/crud-usuario.component';
 import { TransactBoletaComponent } from './components/transact-boleta/transact-boleta.component';
+import { LoginComponent } from './login/login.component';
+import { RegistroComponent } from './registro/registro.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { TransactBoletaComponent } from './components/transact-boleta/transact-b
     CrudSocioComponent,
     MenuComponent,
     CrudUsuarioComponent,
-    TransactBoletaComponent
+    TransactBoletaComponent,
+    LoginComponent,
+    RegistroComponent
 
 
   ],
